@@ -7,6 +7,9 @@ public class Book {
     public String description;
 
     public boolean available;
+    public boolean isAvailable() {
+        return available;
+    }
 
 
 
